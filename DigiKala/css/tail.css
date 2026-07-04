@@ -1,0 +1,149 @@
+.relative{
+    position: relative;
+}
+.absolute{
+    position: absolute;
+}
+.flex{
+    display: flex;
+}
+.flex-wrap{
+    flex-wrap: wrap;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.justify-center{
+    justify-content: center;
+}
+.items-center{
+    align-items: center;
+}
+.inline-block{
+    display: inline-block;
+}
+.block{
+    display: block;
+}
+.w-full{
+    width: 100%;
+}
+.p-4{
+    padding: 1rem;
+}
+.p-3{
+    padding: 0.5rem;
+}
+.ps-4{
+    padding-right: 1rem;
+}
+.gap-4{
+    gap: 1rem;
+}
+.bg-gray-100{
+    background-color: #f0f0f1;
+}
+.bg-red-500{
+    background-color: red;
+}
+.bg-white{
+    background-color: white;
+}
+.overflow-hidden{
+    overflow: hidden;
+}
+.rounded-circle{
+    border-radius: 99rem;
+
+}
+.rounded{
+    border-radius: 10px;
+}
+.flex-col{
+    flex-direction: column;
+}
+.mb-4{
+    margin-bottom: 1rem;
+}
+.mt-4{
+    margin-top: 1rem;
+}
+.text-center{
+    text-align: center;
+}
+.py-4{
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+.px-4{
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.w-1\/4{
+    width: 25%;
+}
+.w-1\/6{
+    width: 16.66666666%;
+}
+.w-40\/100{
+    width: 40%;
+}
+.w-60\/100{
+    width: 60%;
+}
+.container{
+    width: 100%;
+}
+@media(min-width:768px){
+    .container{
+        width: 700px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .md\:w-1\/2{
+        width: 50%;
+    }
+    .md\:w-1\/4{
+        width:25%;
+    }
+    .md\:w-1\/10{
+        width: 10%;
+    }
+    .md\:w-20\/100{
+        width: 20%;
+    }
+    .md\:w-80\/100{
+        width: 80%;
+    }
+
+}
+@media(min-width:1024px){
+    .container{
+        width: 900px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .md\:w-1\/10{
+        width: 10%;
+    }
+}
+@media(min-width:1336px){
+    .container{
+        width: 1250px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .md\:w-1\/10{
+        width: 10%;
+    }
+}
+@media(min-width:1440px){
+    .container{
+        width: 1300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .md\:w-1\/10{
+        width: 10%;
+    }
+}
